@@ -27,8 +27,8 @@ const Controls = styled.div`
 const DonutShop = ({ onAddDonut, onRemoveDonut, numDonuts }) => {
   return (
     <Shop>
-      <ShopName>/stripe/donut</ShopName>
-      <Image src="./donut.png" width="100px"></Image>
+      <ShopName>Pineapple</ShopName>
+      <Image src="./pineapple.png" width="100px"></Image>
       <Controls>
         <DonutQuantity
           onAdd={onAddDonut}

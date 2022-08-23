@@ -14,7 +14,7 @@ const MainPage = props => {
   const remDonut = () => setNumDonuts(num => Math.max(1, num - 1));
 
   return (
-    <Layout title="Donut Shop">
+    <Layout title="Pineapple Shop">
       <Row>
         <DonutShop
           onAddDonut={addDonut}
